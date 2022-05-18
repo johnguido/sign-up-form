@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #414a4c;
+  background-color: #0e1111;
 }
 
 .content {
@@ -39,6 +39,9 @@ body {
   width: 780px;
   background-color: lightgray;
   border-radius: 0px 25px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-img {
@@ -74,4 +77,12 @@ body {
 
 a {
   color: white;
+}
+
+.right-center {
+  height: 500px;
+  width: 700px;
+  border-radius: 10px;
+  background-color: #232b2b;
+  box-shadow: 5px 10px 18px black;
 }
