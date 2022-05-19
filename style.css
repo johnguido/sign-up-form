@@ -149,11 +149,15 @@ label {
   font-size: 1.2rem;
 }
 
+input:hover {
+  box-shadow: 1px 4px 6px black;
+}
+
 input {
   padding: 5px;
   border-radius: 5px;
   border-style: none;
-  font-family: "Norse";
+  font-family: sans-serif;
   width: 80%;
 }
 
