@@ -136,6 +136,13 @@ form {
 .form-submit {
   border-radius: 25px;
   border-style: none;
+  margin-top: 25px;
+  height: 45%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 label {
