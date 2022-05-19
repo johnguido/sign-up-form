@@ -164,11 +164,15 @@ input {
 input:valid {
   border-style: solid;
   border-color: green;
-  border-width: 3px;
+  border-width: 2px;
 }
 
 input:invalid {
   border-style: solid;
   border-color: red;
-  border-width: 3px;
+  border-width: 2px;
+}
+
+button:hover {
+  box-shadow: 1px 4px 6px black;
 }
