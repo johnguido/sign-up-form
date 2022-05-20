@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>signUpForm</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <div class="main-content">
@@ -39,7 +40,7 @@
         <div class="right-content">
           <div class="right-center">
             <div class="form-text">Sign Up.</div>
-            <form action="/" method="GET">
+            <form id="form" action="/" method="GET">
               <div class="form-div">
                 <div>
                   <label for="name">Name</label>
@@ -78,10 +79,13 @@
                     name="password-confirm"
                     required
                   />
+                  <p class="error"></p>
                 </div>
               </div>
               <div class="form-div" id="form-submit">
-                <button class="form-submit">Submit</button>
+                <button type="submit" class="form-submit">
+                  Create Account
+                </button>
               </div>
             </form>
           </div>
