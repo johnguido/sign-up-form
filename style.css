@@ -42,6 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .left-img {
@@ -78,6 +79,13 @@ body {
 a {
   color: white;
   font-family: "Norse";
+}
+
+.phrase {
+  width: 700px;
+  position: relative;
+  bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .right-center {
